@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Post</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="navbar" >
+        <h3>Add New Post</h3>
+        <a class="link" href="./index.html"> View all Posts</a>
+    </div>
+    <div id="form-container">
+
+        <span>Enter Author Name</span>
+        <input type="text" id="name-field" placeholder="Author Name Here">
+        <br>
+        <span>Enter Post Content</span>
+        <input type="text" id="content-field" placeholder="Post Content Here">
+        <br>
+        <button onclick="addPost()">Create Post</button>
+    </div>
+</body>
+<script src="./add_post.js"></script>
+
+</html>

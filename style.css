@@ -1,0 +1,57 @@
+body {
+  background-color: #ddd;
+  font-family: 'Wix Madefor Display', sans-serif;
+}
+
+div#post-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+div.post {
+    background-color: rgba(255, 255, 255, 0.1);
+  margin: 15px;
+  border: 1px solid #777;
+  box-shadow: 1px 2px 4px #999;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+div.author {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+a.link{
+  padding: 10px 20px ;
+  border: 1px solid #333 ;
+  border-radius: 8px;
+  border-color: #aaa;
+  text-decoration: unset; 
+  background-color: white;
+}
+a.link:hover{
+  box-shadow: 2px 1px 4px 0px greenyellow;
+}
+
+input, button{
+margin: 10px 2px;
+padding: 10px 15px;
+border-radius: 8px;
+}
+
+button:hover{
+  background-color: green;
+  cursor: pointer;
+}
+
+div.navbar{
+display: flex; justify-content: space-between; align-items: center;
+background-color: #999 ;
+
+padding: 10px 20px ;
+
+}
